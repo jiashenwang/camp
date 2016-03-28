@@ -1,0 +1,32 @@
+<svg width="120" height="48" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <polygon id="svg_2" points="2,9.6 2,24 9,24 9,17 15,17 15,24 22,24 22,9.6 12,0.7  " fill="#FFFFFF"/>
+  </g>
+  <rect id="svg_3" height="2" width="14" fill="#FFFFFF" y="20.102564" x="77"/>
+  <rect id="svg_4" height="2" width="14" fill="#D44457" y="44.102564" x="77"/>
+  <path id="svg_5" d="m72,2.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#FFFFFF"/>
+  <g id="svg_12">
+   <polygon id="svg_13" points="2,33.6 2,48 9,48 9,41 15,41 15,48 22,48 22,33.6 12,24.7  " fill="#D44457"/>
+  </g>
+  <path id="svg_14" d="m72,26.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#D44457"/>
+  <rect id="svg_26" height="2" width="14" fill="#FFFFFF" y="20.102564" x="29.000004"/>
+  <rect id="svg_27" height="2" width="14" fill="#D44457" y="44.102564" x="29.000004"/>
+  <path id="svg_28" d="m24.000004,2.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#FFFFFF"/>
+  <path id="svg_29" d="m24.000004,26.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#D44457"/>
+  <rect id="svg_30" height="2" width="14" fill="#FFFFFF" y="20.102564" x="53.000002"/>
+  <rect id="svg_31" height="2" width="14" fill="#D44457" y="44.102564" x="53.000002"/>
+  <path id="svg_32" d="m48.000002,2.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#FFFFFF"/>
+  <path id="svg_33" d="m48.000002,26.102564l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#D44457"/>
+  <rect id="svg_34" height="2" width="14" fill="#FFFFFF" y="20.102564" x="100.999998"/>
+  <rect id="svg_35" height="2" width="14" fill="#D44457" y="44.102564" x="100.999998"/>
+  <path id="svg_36" d="m95.999998,2.10256l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#FFFFFF"/>
+  <path id="svg_37" d="m95.999998,26.10256l0,16l24,0l0,-16l-24,0zm9,13l0,-10l6.7,5l-6.7,5z" fill="#D44457"/>
+ </g>
+</svg>
