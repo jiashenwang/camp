@@ -666,11 +666,15 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>中美音乐交流访学团</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p>让你的音乐梦想起航</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a class="btn btn-default btn-lg"><i class="fa-fw"></i> <span class="network-name">报名方式：发送E-mail至zhangqi1707@163.com</span></a>
+                        <a onclick="copyToClipboard()" class="btn btn-default btn-lg"><i class="fa-fw"></i> <span class="network-name">报名方式：发送E-mail至zhangqi1707@163.com</span></a>
                     </li>
+                    <li>
+                        <a id="copy" onclick="copyToClipboard()" class="btn btn-default btn-lg" value="zhangqi1707@163.com"><i class="fa-fw"></i> <span class="network-name">复制邮箱</span></a>
+                    </li>
+                    <div hidden="true", id="copy-text">zhangqi1707@163.com</div>
                 </ul>  
                 <br><hr>
                 <p>
@@ -689,7 +693,6 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container text-center">
-            <div class="footer_left"><p>Copyright &copy; www.supremecamp.com</p></div>
             <div class="footer_right">
                 <p>主办单位：上海缌强文化公司</p>
                 <p>承办单位：加州大学洛杉矶分校学院</p>
@@ -697,6 +700,7 @@
                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;美国洛杉矶音乐协会<br>
                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;南加州大学音乐学院</p>
             </div>
+            <div class="footer_left"><p>Copyright &copy; www.supremecamp.com</p></div>
         </div>
     </footer>
 
@@ -713,6 +717,23 @@
     <script src="js/grayscale.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="./ZeroClipboard.js"></script>
+
+    <script>
+      function copyToClipboard() {
+            document.getElementById("copy").innerHTML="邮箱已复制";
+            copyToClipboard2("#copy-text");
+      }
+     function copyToClipboard2(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+     }
+    </script>
+
+</script>
 
 </body>
 
