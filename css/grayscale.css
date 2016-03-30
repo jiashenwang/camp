@@ -422,7 +422,7 @@ body {
     padding: 0;
     margin: 10px;
     width: 340px;
-    height: 560px;
+    height: 530px;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.5s ease-in-out;
     vertical-align:top;
